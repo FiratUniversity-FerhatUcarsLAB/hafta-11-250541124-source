@@ -22,3 +22,20 @@ public class Exercise4_3 {
         System.out.println(".");
     }
 }
+
+ÇIKTI
+    No, I wug. You wugga wug.I wug.
+
+    ===========================
+    ping()
+    
+    ---------------------------------
+    baffle()
+
+    ---------------------------
+    zoop()
+
+    ------------------------
+    main(String[] args)
+
+    ============================
