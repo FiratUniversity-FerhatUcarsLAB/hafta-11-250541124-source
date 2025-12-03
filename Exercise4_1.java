@@ -1,14 +1,36 @@
-public class Exercise4_1 {
+faik dursun 
+    2505411124
+    exercise 4.1 tamamlandı. 
 
-    public static void printAmerican(String day, int date, String month, int year) {
-        // TODO
+public class EXERCİSE1 {
+
+    // AMERİCAN FORMAT : DAY, MONTH DATE , YEAR
+    public static void printAmerica ( String day , int date, String month , int year ) {
+        System.out.println( day + ", "+month+ " "+ date +", " +year);
     }
 
-    public static void printEuropean(String day, int date, String month, int year) {
-        // TODO
-    }
+     // EUROPEAN FORMAT: DAY DATE MONTH YEAR
+    public static void printEuropean ( String day, int date , String month , int year ) {
+         System.out.println(day + "  " + date + " " +month+" "+year);
+        }
+      public static void main(String[] args) {
 
-    public static void main(String[] args) {
-        // TODO: test methods
-    }
+
+        String day = " THURSDAY ";
+        int date=  26  ;
+        String month = " DECEMBER ";
+        int year = 1975;
+
+        System.out.print( "AMERİCAN FORMAT");
+        printAmerica(day,date,month,year);
+
+        System.out.print( "EUROPEAN FORMAT");
+        printEuropean(day,date,month,year);
+
+      }
+
+
 }
+
+
+
